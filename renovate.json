@@ -1,0 +1,14 @@
+{
+  "extends": ["config:base"],
+  "labels": ["dependencies"],
+  "gomodTidy": true,
+  "ignoreDeps": [
+    "golang.org/x/crypto", 
+    "golang.org/x/sys",
+    "golang.org/x/net"
+  ],
+  "vulnerabilityAlerts": {
+    "labels": ["security"],
+    "assignees": ["@aries1980"]
+  }
+}
